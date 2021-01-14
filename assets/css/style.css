@@ -1,13 +1,37 @@
+/* 
+  Universal 
+*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* 
+  Body 
+*/
 body {
   background-color: #d9dcd6;
 }
 
+/* 
+  Links 
+*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* 
+  Paragraphs 
+*/
+p {
+  font-size: 16px;
+}
+
+/* 
+  Header 
+*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -42,15 +66,9 @@ header nav ul li {
   margin-left: 25px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-p {
-  font-size: 16px;
-}
-
+/* 
+  Background image 
+*/
 .hero {
   height: 800px;
   width: 100%;
@@ -60,6 +78,9 @@ p {
   background-position: center;
 }
 
+/* 
+  Float classes 
+*/
 .float-left {
   float: left;
   margin-right: 25px;
@@ -70,6 +91,9 @@ p {
   margin-left: 25px;
 }
 
+/* 
+  Main 
+*/
 main {
   width: 75%;
   display: inline-block;
@@ -94,6 +118,9 @@ main {
   font-size: 36px;
 }
 
+/* 
+  Aside 
+*/
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -121,6 +148,9 @@ aside {
   max-width: 150px;
 }
 
+/* 
+  Footer 
+*/
 footer {
   padding: 30px;
   clear: both;
